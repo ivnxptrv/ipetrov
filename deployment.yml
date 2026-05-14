@@ -44,7 +44,7 @@ spec:
   rules:
     - http:
         paths:
-          - path: /wil
+          - path: /
             pathType: Prefix
             backend:
               service:
